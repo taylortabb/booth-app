@@ -34,11 +34,10 @@
   </head>
   <style>
 
-  img.round {
+.full {
+  width: 100%;
+}
 
-  	border-radius: 10px;
-
-  }
   .collapsible {
   	cursor: pointer;
   	width: 100%;
@@ -63,13 +62,15 @@
   	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
   	<div class="container" style="margin-top: 10%">
 <div class="row">
-<div class="two columns">
-	<img src="images/cocologo.png" width="100%" alt="Italian Trulli">
+<div class="twelve columns">
+	<div class="four columns offset-by-four">
+	<img src="images/cocologo.png" width="100%">
+</div>
 </div>
 	</div>
 	<br>	
 <div class="row">
-  		<div class="collapsible"> <h4 class="button">Blueprints</h4></div>
+  <div class="collapsible"> <button class="button-primary full">Blueprints</button></div>
 
   		<div class="content"> 		
   				<div class="three columns">
@@ -153,10 +154,10 @@
   			</div>
 </div>
 <div class="row">
- <div class="collapsible"> <h4 class="button">Paint Reference</h4></div>
+ <div class="collapsible"> <button class="button full">Paint Reference</button></div>
 
   		<div class="content"> 		
-  				<div class="three columns">
+  				<!-- <div class="three columns">
   					<h5>Floor 1 Walls</h5>
   					<select onChange="window.location.href=this.value">
   						<option value="www.google.com">1A</option>
@@ -233,16 +234,16 @@
   						<option value="www.aol.com">DO1</option>
   						<option value="www.aol.com">DO2</option>
   					</select>
-  				</div>
+  				</div> -->
   			</div>
   				 	
 </div>
 
 <div class="row">
- <div class="collapsible"> <h4 class="button">Figures</h4></div>
+ <div class="collapsible"> <button class="button full">Figures</button></div>
 
   		<div class="content"> 		
-  				<div class="three columns">
+  				<!-- <div class="three columns">
   					<h5>Floor 1 Walls</h5>
   					<select onChange="window.location.href=this.value">
   						<option value="www.google.com">1A</option>
@@ -319,7 +320,7 @@
   						<option value="www.aol.com">DO1</option>
   						<option value="www.aol.com">DO2</option>
   					</select>
-  				</div>
+  				</div> -->
   			</div>
 
 </div>
